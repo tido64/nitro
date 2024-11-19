@@ -73,11 +73,18 @@
     "react": "*",
     "react-native": "*",
     "react-native-builder-bob": "^0.33.1",
+    "react-native-windows": "*",
     "typescript": "~5.5.4"
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "react-native-windows": "*"
+  },
+  "peerDependenciesMeta": {
+    "react-native-windows": {
+      "optional": true
+    }
   },
   "codegenConfig": {
     "name": "NitroModulesSpec",
